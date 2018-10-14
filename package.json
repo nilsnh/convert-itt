@@ -1,0 +1,24 @@
+{
+  "name": "convert-itt",
+  "version": "1.0.0",
+  "description": "Parse iTunes Timed Text (.itt) into SubRip Subtitle files (.srt).",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Nils Norman Haukås <mail@nilsnh.no> (https://nilsnh.no)",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "convert-itt": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "xml-js": "^1.6.8"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.8"
+  }
+}
