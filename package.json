@@ -7,6 +7,13 @@
     "test": "ava"
   },
   "author": "Nils Norman Haukås <mail@nilsnh.no> (https://nilsnh.no)",
+  "keywords": [
+    "iTunes Timed Text",
+    "iTT",
+    "SRT",
+    "SubRip Subtitle Files",
+    "convert"
+  ],
   "license": "AGPL-3.0-or-later",
   "engines": {
     "node": ">=8"
