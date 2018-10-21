@@ -12,11 +12,15 @@ Run `npm install -g convert-itt` in your terminal to install the tool.
 
 Point newly installed Terminal command at one or more files or folders. It will create .srt files next to the .itt files.
 
-Convert a folder: `convert-itt some-folder/`.
+To convert a folder call: `convert-itt some-folder/`.
 
-Convert files: `convert-itt *` or `convert-itt ./` or `convert-itt some-subtitle.itt`.
+You can also convert files by calling: 
 
-Get help: `convert-itt --help`
+- `convert-itt *` or 
+- `convert-itt ./` or 
+- `convert-itt some-subtitle.itt`.
+
+Get help by running: `convert-itt --help`
 
 ## License
 
