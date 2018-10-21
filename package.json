@@ -1,7 +1,7 @@
 {
-  "name": "convert-itt",
+  "name": "converttt",
   "version": "1.0.0",
-  "description": "Parse iTunes Timed Text (.itt) into SubRip Subtitle files (.srt).",
+  "description": "Convert iTunes Timed Text (.itt) into SubRip Subtitle files (.srt).",
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nilsnh/convert-itt.git"
+    "url": "git@github.com:nilsnh/converttt.git"
   },
   "bin": {
-    "convert-itt": "./index.js"
+    "converttt": "./index.js"
   },
   "dependencies": {
     "commander": "^2.19.0",

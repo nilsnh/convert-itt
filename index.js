@@ -18,7 +18,7 @@ program
 const filesOrFolders = process.argv.splice(2);
 
 if (filesOrFolders.length === 0) {
-  return console.log("For instructions call convert-itt --help");
+  return console.log("For instructions call converttt --help");
 }
 
 const files = findITTFiles(filesOrFolders);
