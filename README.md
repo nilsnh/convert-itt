@@ -1,5 +1,7 @@
 # ITT to SRT converter
 
+[![Build Status](https://travis-ci.org/nilsnh/convert-itt.svg?branch=master)](https://travis-ci.org/nilsnh/convert-itt)
+
 A command line utility that converts [iTunes Timed Text (.itt)](https://www.w3.org/TR/ttml1/) into [SubRip Subtitle files (.srt)](https://matroska.org/technical/specs/subtitles/srt.html).
 
 ## Installation
@@ -14,10 +16,10 @@ Point newly installed Terminal command at one or more files or folders. It will 
 
 To convert a folder call: `convert-itt some-folder/`.
 
-You can also convert files by calling: 
+You can also convert files by calling:
 
-- `convert-itt *` or 
-- `convert-itt ./` or 
+- `convert-itt *` or
+- `convert-itt ./` or
 - `convert-itt some-subtitle.itt`.
 
 Get help by running: `convert-itt --help`
