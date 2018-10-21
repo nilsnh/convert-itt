@@ -1,6 +1,6 @@
 # ITT to SRT converter
 
-A command line utility that converts iTunes Timed Text (.itt) into SubRip Subtitle files (.srt).
+A command line utility that converts [iTunes Timed Text (.itt)](https://www.w3.org/TR/ttml1/) into [SubRip Subtitle files (.srt)](https://matroska.org/technical/specs/subtitles/srt.html).
 
 ## Installation
 
